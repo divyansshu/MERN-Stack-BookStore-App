@@ -29,17 +29,6 @@ const BookModel = ({book, onclose}) => {
           <BiUserCircle className="text-red-300 text-2xl" />
           <h2 className="my-1">{book.BookAuthor}</h2>
         </div>
-        <p className="mt-4">AnyThing You want to show</p>
-        <p className="my-2">
-          The Power of Your Subconscious Mind, one of the most beloved and
-          bestselling inspirational guides of all time, shows how changing your
-          thought patterns can produce dramatic improvements in your life. Using
-          practical, easy-to-understand techniques and real-world case studies,
-          Dr. Joseph Murphy reveals the vast influences of the subconscious mind
-          on all aspects of existence-money, relationships, jobs, happiness-and
-          how you can apply and direct its power to achieve your goals and
-          dreams.
-        </p>
       </div>
     </div>
   );
